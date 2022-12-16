@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+    font-family: 'open sans', Verdana, sans-serif;
+    color: black;
+    text-align: center;
+}
+img {
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% auto;
+}
+
+.form__input {
+    display: block;
+}
