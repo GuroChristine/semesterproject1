@@ -59,7 +59,7 @@ header{
   }
   .menu1 {
     width: 100%;
-    background-color:rgb(172, 172, 166);
+    background-color:rgb(255, 255, 255);
     margin: 0;
     display: -ms-grid;
     display: grid;
@@ -94,8 +94,8 @@ header{
   }
   
   .link1:hover {
-    background-color: #fff;
-    color: rgb(193, 190, 190);
+    background-color: #b0afaf;
+    color: rgb(255, 255, 255);
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
   }
@@ -103,7 +103,7 @@ header{
   body{
     margin: 0;
     padding: 0;
-    background-color: rgb(3, 97, 121);
+    background-color: rgb(255, 255, 255);
     font-family: 'open sans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
     color: rgb(0, 0, 0);
     text-align: center;
@@ -123,7 +123,7 @@ header{
   }
   h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(6, 69, 3);
+    color: rgb(6, 6, 6);
     padding: 1rem 1.5rem;
     margin: 2em;    
   }
