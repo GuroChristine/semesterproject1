@@ -4,35 +4,39 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Community Science Museum | Home</title>
         <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <link href="javascript.js" rel="javascript">
+        <title>Community Science Museum | Home</title>
     </head>
     <body>
-        <header class="header">
-            <div class="logo">
-                <!-- Logo goes here -->
-            </div>
-            <nav class="header-nav-bar">
-                <a href="index.html">Home</a>
-                <a href="explore.html">Explore</a>
-                <a href="exhibitionspaces.html">Exhibition spaces</a>
-                <a href="spesicaleventsandexhibtions.html"
-                    >Spesical events and exhibitions</a
-                >
-                <a href="visit.html">Visit</a>
-                <a href="getinvolved.html">Get involved</a>
-            </nav>
+        <header>
+            <img src="./images/headerdesign.jpg" alt="header"  width="100%"/>
         </header>
+
+        <section class="p-menu1">
+            <nav id="navbar" class="navigation" role="navigation">
+              <input id="toggle1" type="checkbox" />
+              <label class="hamburger1" for="toggle1">
+                <div class="top"></div>
+                <div class="meat"></div>
+                <div class="bottom"></div>
+              </label>
+
+           <nav class="menu1">
+         <a class="link1" href="index.html">Home</a>
+         <a class="link1" href="Explore.html">Explore</a>
+         <a class="link1" href="Exhibition.html">Exhibition spaces</a>
+         <a class="link1" href="Spesical events.html">Spesical events & exhibitions</a>
+         <a class="link1" href="Visit.html">Visit</a>
+         <a class="link1" href="Get involved.html">Get involved</a>
+       </nav>
+   </nav>
+   </section>
+    
         <main>
             <div class="hero-img">
-                <img src="scott-webb-102825.jpg" alt="hero image" />
+                <img src="./images/scott-webb-102825.jpg" alt="hero image">
 
-
-            <p><p id="web-security-question">How would you advise a potential client to secure his/her website from web security attacks? Note: the word count for your answer should not be greater than 250 words</p>
-            <p id="web-security-answer">[I would advice my client to use an open-standard authorization protocol or framework such as OneLogin, maybe even implement an automatic user timeout. Would also recomend the client to make use of known third-party application. 
-             I also think it would be an good idea to have an monthly sanitization of data also i would advice them to use secure passwords that would be hard to figure out.]
-   
-             to protect them from security attacks]</p></p>
             </div>
             <section class="main-section">
                 <h1>Welcome to the Community Science Museum</h1>
@@ -53,6 +57,11 @@
                         (apart from the dinosaur exhibits - the only come to life at night
                         when everyone’s gone home)
                     </p>
+
+                    <p id="web-security-question">How would you advise a potential client to secure his/her website from web security attacks? Note: the word count for your answer should not be greater than 250 words</p>
+                    <p id="web-security-answer">[I would advice my client to use an open-standard authorization protocol or framework such as OneLogin, maybe even implement an automatic user timeout. Would also recomend the client to make use of known third-party application. 
+                     I also think it would be an good idea to have an monthly sanitization of data also i would advice them to use secure passwords that would be hard to figure out.]
+                     to protect them from security attacks]</p>
                 </div>
             </section>
         </main>
