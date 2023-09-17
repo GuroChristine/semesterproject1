@@ -116,6 +116,7 @@ header{
   .images {
     max-height: 100%;
     max-width: 100%;
+    align-items: center;
   }
   .form__input {
     display: block;
@@ -138,15 +139,7 @@ header{
     justify-content: center;
     align-items: center;
   }
-  .radio-buttons{
-    display: flex;
-    justify-content: center;
-  }
-  .radio{
-    padding: 0 1rem;
-    display: flex;
-    flex-flow: column-reverse;
-  }
+  
   
   footer::before,
   footer::after {
